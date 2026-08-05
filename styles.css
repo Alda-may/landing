@@ -235,13 +235,13 @@ body {
 
 /* Video Section */
 .video-container {
-    max-width: 800px;
+    max-width: 500px;
     margin: 0 auto;
     background-color: #000000;
     border-radius: 12px;
-    border: 1px solid var(--border-purple);
+    border: 1px solid rgb(237, 154, 237);
     overflow: hidden;
-    box-shadow: 0 0 25px rgba(147, 51, 234, 0.2);
+    box-shadow: 0 0 25px rgba(238, 134, 252, 0.847);
 }
 
 .video-container video {
@@ -369,7 +369,7 @@ body {
 /* Footer */
 .footer {
     background-color: #050209;
-    border-top: 1px solid var(--border-purple);
+    border-top: 1px solid rgba(222, 121, 211, 0.85);
     text-align: center;
     padding: 2.5rem;
     color: var(--text-secondary);
