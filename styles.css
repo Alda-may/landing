@@ -366,6 +366,18 @@ body {
     box-shadow: 0 0 30px rgb(234, 76, 215);
 }
 
+.mensaje-exito {
+    display: none; /* Se oculta por defecto hasta que JS le cambie el estilo */
+    margin-top: 1.2rem;
+    padding: 1rem;
+    background-color: rgba(0, 255, 204, 0.1);
+    border: 1px solid #00ffcc;
+    color: #00ffcc;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 255, 204, 0.3);
+}
 /* Footer */
 .footer {
     background-color: #050209;
