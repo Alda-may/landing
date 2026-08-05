@@ -21,7 +21,6 @@ form.addEventListener('submit', (e) => {
     // Limpiar el formulario
     form.reset();
 
-    // Agregar al final de tu evento 'submit' en script.js
     setTimeout(() => {
         mensaje.style.display = 'none';
     }, 5000); // Se oculta tras 5 segundos (5000 ms)
