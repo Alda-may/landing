@@ -179,11 +179,9 @@ body {
 
 /* Control de tamaño y alineación para los PNG */
 .card-icon {
-    width: 85px;            /* Ajusta el ancho deseado */
-    height: 85px;           /* Mantiene una proporción cuadrada */
-    object-fit: contain;    /* Evita que el PNG se distorsione */
-    display: block;
-    margin: 0 auto 1.5rem;  /* Centra la imagen y da espacio inferior al título */
+    width: 100%;            /* Ajusta el ancho deseado */
+    height: 200px;           /* Mantiene una proporción cuadrada */
+    object-fit: cover;    
 }
 
 /* Opcional: Filtro si deseas darles un brillo neón similar al texto */
