@@ -405,6 +405,24 @@ body {
     text-shadow: 0 0 10px var(--purple-glow);
 }
 
+/* imagenes para red social */
+.social-links a {
+    display: inline-table;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: hsl(308, 84%, 56%);
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.social-icon:hover {
+    box-shadow: 0 0 25px rgba(238, 134, 252, 0.847);
+}
 /* Responsive */
 @media (max-width: 768px) {
     .hero-section {
